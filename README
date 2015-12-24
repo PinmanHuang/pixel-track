@@ -1,0 +1,40 @@
+PixelTrack  
+----------
+© Stefan Duffner, LIRIS, INSA de Lyon, France, 2015
+
+This code is for research purposes only.
+If you use this code please cite the following paper:
+
+@InProceedings{duffner_iccv13,
+author = {Duffner, Stefan and Garcia, Christophe},
+title = {PixelTrack: a fast adaptive algorithm for tracking non-rigid objects},
+booktitle = {Proceedings of the International Conference on Computer Vision (ICCV)},
+address = {Sidney, AUS},
+year = {2013},
+month = dec
+}
+
+More information on:
+http://www.duffner-net.de/research_pixeltrack.html
+
+
+Installation
+------------
+The code has been tested with Ubuntu Linux 14.04 LTS (32 bit) and OpenCV 2.4.8.
+
+First install the OpenCV (>= 2.4) libraries.
+
+Then:
+
+cd build
+cmake ..
+make
+
+
+License
+-------
+GNU General Public License 3.0 (GPLv3)
+
+See included file "LICENSE" and http://www.gnu.org/licenses/gpl-3.0.html.
+
+
